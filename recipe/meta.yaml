@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://r-forge.r-project.org/projects/tables/
-  license: GPL-2.0-or-later
+  license: GPL-2.0-only
   summary: Computes and displays complex tables of summary statistics. Output may be in LaTeX, HTML, plain text, or an R matrix for further processing.
   license_family: GPL2
   license_file:
