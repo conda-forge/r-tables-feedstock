@@ -1,11 +1,11 @@
-About r-tables
-==============
+About r-tables-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tables-feedstock/blob/main/LICENSE.txt)
 
 Home: https://r-forge.r-project.org/projects/tables/
 
-Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tables-feedstock/blob/main/LICENSE.txt)
+Package license: GPL-2.0-only
 
 Summary: Computes and displays complex tables of summary statistics. Output may be in LaTeX, HTML, plain text, or an R matrix for further processing.
 

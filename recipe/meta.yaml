@@ -1,4 +1,4 @@
-{% set version = "0.9.10" %}
+{% set version = "0.9.17" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tables_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tables/tables_{{ version }}.tar.gz
-  sha256: dca5f05e8e4c82f6e8928ce1bad3d5140469ec8bfd903c595b01e585c6e5c659
+  sha256: bfb86fb21a983a3c4f95b92f4a1272b8383cafc8b9c613ccf1bc8991a30ceef9
 
 build:
   merge_build_host: true  # [win]
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://r-forge.r-project.org/projects/tables/
-  license: GPL-2.0-or-later
+  license: GPL-2.0-only
   summary: Computes and displays complex tables of summary statistics. Output may be in LaTeX, HTML, plain text, or an R matrix for further processing.
   license_family: GPL2
   license_file:
