@@ -1,4 +1,4 @@
-{% set version = "0.9.17" %}
+{% set version = "0.9.25" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tables_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tables/tables_{{ version }}.tar.gz
-  sha256: bfb86fb21a983a3c4f95b92f4a1272b8383cafc8b9c613ccf1bc8991a30ceef9
+  sha256: b9000e796e39cb1cdd92e64800beb2c28c9ebc71aea94b418678534f08b61cfb
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
