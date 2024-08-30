@@ -1,4 +1,4 @@
-{% set version = "0.9.28" %}
+{% set version = "0.9.31" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tables_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tables/tables_{{ version }}.tar.gz
-  sha256: ccd2cf3c490af14e424feda39ffc445d74cabc0c2c920765eab44b26515fb329
+  sha256: b81acf193e30a259afc273888d833fd7b4954b3a184bd4de44d798e08d9ce88c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -46,5 +46,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - izahn
     - conda-forge/r
+    - izahn
